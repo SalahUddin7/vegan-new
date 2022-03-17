@@ -1,3 +1,5 @@
+import './css/NavigationBar.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
