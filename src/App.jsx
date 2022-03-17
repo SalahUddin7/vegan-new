@@ -12,11 +12,11 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/:category" element={<Category />}></Route>
-          <Route path="/:category" element={<Contacts />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/category" element={<Category />} />
+          <Route path="/contacts" element={<Contacts />} />
 
-          <Route path="/:product" element={<Product />}></Route>
+          <Route path="/product" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </div>
