@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "name": "Dishes ABC",
+        "categoryID": "Dishes",
+        "description": "This is an Wonderful Dish.............."
+
+    },
+    {
+        "id": 1,
+        "name": "Desserts ABC",
+        "categoryID": "Deserts",
+        "description": "This is an Wonderful Deserts.............."
+
+    },
+    {
+        "id": 2,
+        "name": "Drinks ABC",
+        "categoryID": "Drinks",
+        "description": "This is an Wonderful Drinks.............."
+
+    }
+]

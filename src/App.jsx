@@ -15,9 +15,9 @@ export default function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/menu/:category" element={<Category />} />
+          <Route path="/menu/:categoryID" element={<Category />} />
 
-          <Route path="/product/:product" element={<Product />} />
+          <Route path="/product/:productID" element={<Product />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </BrowserRouter>
