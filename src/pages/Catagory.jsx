@@ -1,7 +1,8 @@
 //NPM Packages
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 //Project File
+import ErrorMessageDisplay from '../components/ErrorMessageDisplay';
 import categories from '../data/categories.json';
 
 export default function Category() {
@@ -10,7 +11,7 @@ export default function Category() {
   //Properties
   const category = categories.find((item) => item.categoryId === categoryId);
 
-  if (category === undefined) return <Link to="/">Menu NOT FOUND</Link>;
+  if (category === undefined) return <ErrorMessageDisplay />;
 
   return (
     <div id="category">

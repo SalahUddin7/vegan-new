@@ -1,23 +1,26 @@
 [
     {
-        "id": 0,
-        "name": "Dishes ABC",
-        "categoryID": "Dishes",
-        "description": "This is an Wonderful Dish.............."
-
+      "id": 0,
+      "categoryId": "dishes",
+      "description": "Everything from salads to vegan burgers",
+      "name": "Dishes",
+      "imageFullURL": "dishes-full.jpg",
+      "imageThumbURL": "dishes-thumb.jpg"
     },
     {
-        "id": 1,
-        "name": "Desserts ABC",
-        "categoryID": "Deserts",
-        "description": "This is an Wonderful Deserts.............."
-
+      "id": 1,
+      "categoryId": "deserts",
+      "name": "Deserts",
+      "description": "Lacto and egg free deserts.",
+      "imageFullURL": "deserts-full.jpg",
+      "imageThumbURL": "deserts-thumb.jpg"
     },
     {
-        "id": 2,
-        "name": "Drinks ABC",
-        "categoryID": "Drinks",
-        "description": "This is an Wonderful Drinks.............."
-
+      "id": 2,
+      "categoryId": "drinks",
+      "name": "Drinks",
+      "description": "Cold drinks for the summer.",
+      "imageFullURL": "drinks-full.jpg",
+      "imageThumbURL": "drinks-thumb.jpg"
     }
-]
+  ]
